@@ -1,0 +1,15 @@
+.product-list-container{
+    margin-bottom: 50px;
+}
+
+.row{
+    padding-top: 0 !important;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+.product-list-container .tab-content{
+    margin-top: 100px;
+}

@@ -1,0 +1,18 @@
+.thirdContainer{
+    margin: 20px auto 50px;
+    /* border: 2px solid black; */
+}
+
+  .support-wrap{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .support-icon{
+      margin: 0 auto; 
+  }
+
+  .support-content{
+      text-align: left;
+  }

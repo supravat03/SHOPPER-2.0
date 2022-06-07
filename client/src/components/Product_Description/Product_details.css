@@ -1,0 +1,46 @@
+
+.product-description{
+    margin: 50px auto;
+  }
+  
+  .product-description-container{
+  margin: 40px auto;
+  
+  }
+  
+  .product-description-container button,ul{
+    color: #333 !important;
+    border: none !important;
+  }
+  
+  .product-description-container .nav-item .nav-link:hover{
+    border-bottom: 1px solid #a749ff  !important;
+  }
+  
+  
+  
+  .product-description #myTab{
+    margin-bottom: 50px;
+  }
+  
+  .review-tab{
+    max-height: 500px;
+    overflow: auto;
+  }
+  .review-tab .card{
+    margin-left: 25px;
+  }
+  
+  #description, #additional{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  
+  
+  @media(max-width:750px){
+    .review-tab{
+      flex-direction: column !important;
+    }
+  }

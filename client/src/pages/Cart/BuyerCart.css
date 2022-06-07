@@ -1,0 +1,113 @@
+.checkout{
+    margin-top:150px;
+}
+
+.checkout .cart-item img{
+    max-width: 100px;
+    /* height: 60px; */
+}
+.checkout-option{
+    margin: 30px auto 50px;
+}
+
+.checkout-option .nav-link.active,.checkout-option .nav-link :hover{
+    background: #a749ff !important;
+    color: white !important;
+}
+
+.checkout-option .nav-pills .nav-link{
+    border-radius: 0 !important;
+}
+.checkout-option .nav-link, .checkout a {
+    color: rgba(0,0,0,0.65) !important;
+}
+.checkout #shippingAddress,.checkout #collapseTwo, .checkout #collapseThree{
+    transition: all 600ms ease !important;
+}
+
+.checkout .d-grid .btn-primary {
+    color: #fff;
+    background-color: #a749ff;
+    border-color: #a749ff;
+}
+.checkout .d-grid .btn-primary:hover{
+    background: #8346c0;
+}
+
+.checkout .btn-primary:focus, .checkout input:focus{
+  
+   box-shadow: 0 0 0 0.25rem #d2aef3;
+   border-color: #a749ff;
+
+}
+.checkout input{
+    border-color: #a749ff;
+
+}
+
+.checkout .d-grid{
+    margin: 20px auto;
+}
+.checkout .address-card{
+    background: #dee2e6 ;
+}
+
+.checkout .address-card-wrap{
+    margin-bottom: 24px ;
+}
+
+.checkout .block-body {
+    padding: 1.2rem 1.5rem;
+}
+.checkout .block-header {
+    padding: 1.2rem 1.5rem;
+    background: #eef3f8;
+}
+.checkout h6, .h6 {
+    font-size: .9rem;
+}
+
+.checkout .block-body {
+    padding: 1.2rem 1.5rem;
+}
+
+
+
+.checkout .cart-header {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    padding: 1.2rem 2rem;
+    background: #eef3f8;
+}
+
+.checkout .text-center {
+    text-align: center !important;
+}
+
+.checkout .cart-body {
+    padding: 0 2rem;
+}
+
+
+.checkout .cart-item {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.checkout .order-summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+
+
+@media(max-width:1000px){
+    .checkout .address-tab{
+        flex-direction: column !important;
+    }
+}

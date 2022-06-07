@@ -1,0 +1,35 @@
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+.customer-image{
+    width: 70%;
+    padding: 0.5rem;
+    background: #fff;
+    margin:1rem auto 1.5rem;
+}
+
+
+.card{
+    width: 100%;
+    align-items: center;
+}
+.card-title{
+    text-align: center;
+}
+.list-group,.list-group li{
+    width: 100%;
+    text-align: center;
+}
+
+.list-group li{
+    cursor: pointer;
+}
+
+.list-group li:hover{
+    /* background: #e9ecef;
+    color: #a749ff; */
+    background: #a749ff;
+    color: white;
+}
